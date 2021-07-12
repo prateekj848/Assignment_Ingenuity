@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">        
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title> Painttool App</title>
+        <link rel="stylesheet" type="text/css" href="paintdesign.css">
+        <script src="paint.js"></script>
+
+    </head>
+    <body>
+        <header class="head"><b>PAINT TOOL</b></header>
+        <div class="wrapper">
+
+            <div class="nav">
+                <a href="#" id="brush" onclick="switchtool('brush')"><img src="https://png.pngtree.com/png-vector/20190307/ourmid/pngtree-vector-drawing-brush-icon-png-image_762944.jpg"></a>
+                <a href="#" id="line" onclick="switchtool('line')"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAATlBMVEX///8AAACnp6erq6sxMTEtLS3p6en29vZ3d3ft7e2ioqLi4uK5ubn7+/uXl5ebm5s3Nzc8PDxwcHAICAhYWFhdXV18fHxCQkK/v7+vr68M8pngAAAAyElEQVR4nO3WWw6CMBBAUSoIgu+37n+jpuFDFzDJGHLODm46badpAAAAAAAAAAAAAAAAAAAAAACAH9tdu0rQ7raRFfvDuqRZH/dRHf0pL6M69zEdQ+JxzLohJOSS3VHKJqJjvGZnlHIdA0Km7IqqDQj5g8mKma1bdkR1F/K1mNFaZUdUEZf9L57fkB9xk51RyiOioxm67I5TzIrSjOfcjmfEvz6bEg+lm8Iyqv71bhO8X0ErPAAAAAAAAAAAAAAAAAAAAAAALMUHe5kNMoB/5bQAAAAASUVORK5CYII="></a>
+                <a href="#" id="rectangle" onclick="switchtool('rectangle')"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAFVBMVEX///8AAABQUFBTU1Po6OhfX18XFxfPXEYCAAABbklEQVR4nO3dsW0DQRAEQYpPMv+Q5ckf48TGoyqAwTVw/j4eAAAAAAAAAAAA3NPr/Wx4vw4Vvn8q3ocKn98O+/M8V/i5vv1Dn9fnaOF1aHpxHS08Nb04+AyF/0Rhc3qhsDm9UNicXihsTi8UNqcXCpvTC4XN6YXC5vRCYXN6obA5vVDYnF4obE4vFDanFwqb0wuFzemFwub0QmFzeqGwOb1Q2JxeKGxOLxQ2pxcKm9MLhc3phcLm9EJhc3qhsDm9UNicXihsTi8UNqcXCpvTC4XN6YXC5vRCYXN6obA5vVDYnF4obE4vFDanFwqb0wuFzemFwub0QmFzeqGwOb1Q2JxeKGxOLxQ2pxcKm9MLhc3phcLm9EJhc3qhsDm9UNicXihsTi8UNqcXCpvTC4XN6YXC5vRCYXN6obA5vVDYnF4obE4vFDanFwqb0wuFzenF2cL737C8/x3SiFOF978HfP+bzgAAAAAAAAAAAHzbL8RzDOHxqGGaAAAAAElFTkSuQmCC"></a>
+                <a href="#" id="circle" onclick="switchtool('circle')"><img src="https://png.pngtree.com/png-clipart/20200801/ourmid/pngtree-black-ring-png-image_2319165.jpg"></a>
+                <a href="#" id="ecllipse" onclick="switchtool('ecllipse')"> <img src="https://w7.pngwing.com/pngs/673/12/png-transparent-ellipse-shape-circle-oval-point-shape-thumbnail.png"></a>
+                <a href="#" id="triangle" onclick="switchtool('triangle')"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReyqdS-fu6lFz6oxe7XrK6n9Nd78XYcqKkfQ&usqp=CAU"></a>
+            </div><br>
+                 <canvas id="mycanvas" width="400" height="400"></canvas>
+
+                 
+        </div>
+    </body>
+</html>
