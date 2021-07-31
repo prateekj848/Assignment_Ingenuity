@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif", "sans-serif";
+     overflow: hidden;
+  }
+  
+  canvas{
+    align-items: center;
+    // margin-bottom: 100px;
+     margin-left: 100px;
+      margin-right: 100px;
+    display: block;
+    width:900px;
+    height:720px;
+  }
+  
+  .progress {
+     position: fixed;
+    top:0;
+    left:0;
+    background: darkgreen;
+    width:0;
+    height: 3px;
+  }
